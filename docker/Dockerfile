@@ -2,9 +2,11 @@
 #     BASE CONTAINER      #
 ###########################
 FROM node:22-alpine3.20 AS base
+ENV NODE_OPTIONS="--max-old-space-size=4096"
 
 RUN apk add --no-cache openssl
 RUN apk add --no-cache font-freefont
+RUN corepack disable 2>/dev/null || true
 
 
 ###########################
