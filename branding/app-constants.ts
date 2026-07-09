@@ -1,11 +1,11 @@
 /**
- * ShieldSign - App Constants
+ * PROSELYTE HOLDINGS - App Constants
  * 
  * Customize these values for your deployment
  */
 
-export const APP_NAME = 'ShieldSign';
-export const APP_NAME_SHORT = 'ShieldSign';
+export const APP_NAME = 'PROSELYTE HOLDINGS';
+export const APP_NAME_SHORT = 'PROSELYTE HOLDINGS';
 export const APP_DESCRIPTION = 'Open Source E-Signatures';
 export const APP_TAGLINE = 'Secure Document Signing';
 
@@ -17,7 +17,7 @@ export const COMPANY_NAME = process.env.COMPANY_NAME || 'Your Company';
 export const COMPANY_ADDRESS = process.env.COMPANY_ADDRESS || '';
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com/KatalystDigital/shieldsign-core',
+  github: 'https://github.com/Proselyte Holdings, Inc./shieldsign-core',
 };
 
 // Feature flags
